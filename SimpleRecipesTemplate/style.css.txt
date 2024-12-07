@@ -1,0 +1,44 @@
+/* Place your CSS styles in this file */
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/**This is for the website name at the top of the page**/
+h1 {
+    text-align: center; /**Make the name center or align to the 'left' or 'right'**/
+    font-family: Arial; /**Word font**/
+    font-weight: normal; /**Make the website header 'normal' or 'bold'.**/
+    background-color: white; /**Color applies to the website header.**/
+}
+
+.navbar ul{
+
+    list-style-type: none; /**Changes the list to not have markers**/
+    background-color: hsl(0, 0%, 25%); /**The background color of the menu**/
+    padding: 0px; /**Padding changes the space inside the nav bar**/
+    margin: 0px; /**Margin changes the space outside the nav bar**/
+    overflow: hidden;
+}
+/**This controls each nav bar item**/
+.navbar a{
+    color: white; /**Changes the font color of nav bar list**/
+    text-decoration: underline; /**Changes the text add or remove underlines or crossouts. Recplace
+            with 'none' to remove underline. Add a color after the value to change the decorations
+            color, ex. 'underline blue'**/
+    padding: 15px; 
+    display: block; /**Displays the nav items as their own box**/
+    text-align: center; /**Centers the items in their own box**/
+
+}
+/**Controls what happens when each menu item is hover over**/
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%); /**Background color when hovered over**/
+}
+/**This controls the list alignment**/
+.navbar li{
+    float: left; /**This controls the centering of the nav bar items. Can be changed to right or center**/
+}

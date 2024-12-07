@@ -1,0 +1,42 @@
+ <!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+
+        <h1>Recipes Website</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h3>Contact Me</h3>
+            <p>If you'd like to contact me about anything regarding this website and it's 
+                usage, please reach out to me at <a href="mailto:simplerecipetemps@gmail.com">
+                    simplerecipetemps@gmail.com </a>.</p>
+        
+
+        
+    </body>
+
+
+
+</html>

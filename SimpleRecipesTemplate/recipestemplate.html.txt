@@ -1,0 +1,95 @@
+
+<!--Everything encased in these "<>" is a comment. They help to explain the coding and is purpose and will not
+    be displayed on the website.-->
+<!--Step one: Download the files or copy and paste them into a notepad app. Remember to name files the title plus either 
+    .html or .css for them to be formatted as a specified file type. Ex. "index.html" is the main home page. "beefstew.html" is
+    the file name for a recipe. Make a folder to hold them all in. They must be in the same folder to refernce each file.-->
+<!-- Step two: Each file can be easily resused as is just by replacing the text in each element.-->
+<!-- Step three: Create a new HTML file for a new recipe. Make a new file using the notepad app on pc, save it as the name you
+    want it to be as well as adding .html in the save file name. "example.html" -->
+<!-- Step four: copy and paste this recipetemplate.html file into your html file. A layout is provided along with explainations
+    on how to alter or add to each on as need for your recipe -->
+
+<!-- Addition resources can be found here "https://www.w3schools.com/whatis/whatis_html.asp" -->
+ <!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Recipe Template</title> <!--Title of the page. Not viewable on the web page-->
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css"> <!--If your style sheet file is named differently
+                                                change the href="" to the filename.css-->
+
+    </head>
+<!--This is the main webpage section. It is seperated into sections, like the header (h1) being at the top of
+    the page, followed by the navigation/menu bar (nav) under it. Another head element (h2/h3/h4) is can be 
+    used, each header element number indicates its rank size, like h2 being smaller than h1, but they can be
+    used in any order. Following the header and nav bar, in the <main> section of the page, h2 titles the page and is followed by
+    text, or paragraph <p>. Elements are ended/closed with "/". Ex. to end a paragraph element to begin another
+    "</p>" is used.-->
+    <body>
+
+        <h1>Recipes Website</h1> <!-- -->
+
+        <nav class="navbar"> <!-- -->
+            <ul> <!--Start and sets the list-->
+                <li><a href="index.html">Home</a></li> <!--Links to the index.html file page-->
+                <li><a href="about.html">About</a></li> <!--Links to the about.html file page-->
+                <li><a href="recipes.html">Recipes</a></li> <!--Links to the recipes.html file page-->
+                <li><a href="contact.html">Contact</a></li> <!--Links to the contact.html file page-->
+            </ul> <!-- -->
+        </nav> <!-- -->
+        <!-- <a href"..."> is used to reference another specified file. With index.html, the href attribute will allow "Home"
+            to link to the proper file so the page is displayed.
+
+        <main>
+
+            <!--Recipe Name-->
+            <h2>Recipe Name</h2>
+
+            <!--Description-->
+            <p>This is a placeholder for the dish description</p>
+
+            <!--Prep and Cook Times, if applicable. Delete or comment out if not needed-->
+            <h3>Prep and Cook Times</h3>
+            <p>Prep Time: </p>
+            <p>Cook Time: </p>
+
+            <!--Ingredients-->
+            <h3>Ingredients</h3>
+                <ul>
+                    <li>Ingredient 1</li>
+                    <li>Ingredient 2</li>
+                    <li>Ingredient 3</li>
+                    <li>Ingredient 4</li>
+                    <li>Ingredient 5</li>
+                    <!-- <li> </li> -->
+                    <!--Keep adding or copy and paste more list elements <li> if more ingredient are needed-->
+                </ul>
+
+            <!--Instructions-->
+            <h3>Instructions</h3>
+            <p>1. </p>
+            <p>2. </p>
+            <p>3. </p>
+            <p>4. </p>
+            <p>5. </p>
+            <p>6. </p>
+            <!-- Keep adding or copy and paste more paragraph elements <p> if more steps are needed -->
+
+            <!--Category-->
+            <!--To link the category to take you to the recipe list page (or any other page) and section of the category, add 
+                <a href="filname.html#id" --you have add the file name plus the section id, '#' refering the the section.
+                ex. to link to the chicken category in the recipes.html page that have a section id of 'chicken'
+                you will use <a href="recipes.html#chicken" -->
+            <h3>Category</h3>
+                <ul>
+                    <li><a href="">Category Name</a></li>
+                    <!-- <li><a href="_placeholder_">Cat</a>Placeholder</li> -->
+                </ul>
+             
+        
+    </body>
+</html>

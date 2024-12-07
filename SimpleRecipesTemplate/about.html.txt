@@ -1,0 +1,43 @@
+ <!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <h1>Simple Recipe Template</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h3>About Simple Recipe Template!</h3>
+
+            <p>Simple Recipe Template is a small, free recipe book website created as a college project.
+                It's a place to find my recipes as well as provide a way for everyone to do that same. </p>
+            <p>Below is a link to this website's files where you can find easy to understand templates to 
+                copy and follow so you can start your own recipe website! Even if you have no experience with
+                making a website, the files will give guided HTML and CSS comments to allow you to customize,
+                upload, and share your recipes. </p>
+        
+
+        
+    </body>
+
+
+
+</html>

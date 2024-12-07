@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <h1>Simple Recipe Template</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h3>Home Page</h3>
+
+            <p>Welcome to Simple Recipe Template, a place where you can find my own list of recipes
+                as well can find guided templates so that you can create your own way to store yours!
+                Visit the <a href="about.html">About</a> page to learn more!</p>
+        
+
+        
+    </body>
+</html>

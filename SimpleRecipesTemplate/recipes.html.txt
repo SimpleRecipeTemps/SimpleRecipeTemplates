@@ -1,0 +1,56 @@
+ <!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Recipe List</title>
+
+        <!-- Load CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <h1>Simple Recipes</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main> <!-- The main section of the page -->
+            <h3>Recipes!</h3>
+            <p>Here is where you can find the list of recipes orginized into categories.</p>
+            <section id="#chicken"> <!--This give the section an ID, allowing it to be refereced from other
+                                    parts of the website. Use <a href="recipes.html#chicken">text</a> to link
+                                    to this section.-->
+            <h4>Chicken Recipes</h4>
+                <ul> <!--This list will link to each individual recipe html file, or any file you link.-->
+                    <li><a href="">Please check back later for new recipes.</a></li>
+                    <!-- <li><a href="">...</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">...</a></li> -->
+            </ul>    
+            </section>    
+
+            <section id="beef"> <!--This give the section the ID of beef. Use <a href="recipes.html#beef">text</a>
+                                to link to it-->
+            <h4>Beef Recipes</h4>
+                <ul>
+                    <li><a href="beeftacopasta.html">Beef Taco Pasta</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">...</a></li>
+                </ul>
+            </section>
+     
+    </body>
+</html>

@@ -1,0 +1,72 @@
+ <!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Recipe 1</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css"> <!--If your style sheet is named differently
+                                                change the href="" to the filename.css-->
+
+    </head>
+
+    <body>
+
+        <h1>Recipes Website</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <!--Recipe Name-->
+            <h2>Beef Taco Pasta</h2>
+
+            <!--Description-->
+            <p>This is a simple but tasty recipe I love for taco seasoned beef pasta with salsa instead of tomato 
+                sauce. It usuals gives me about 4-5 servings.</p>
+
+            <!--Prep and Cook Times-->
+            <h3>Prep and Cook Times</h3>
+            <!-- <p>Prep Time: </p> -->
+            <p>Cook Time: 20 minutes</p>
+
+            <!--Ingredients-->
+            <h3>Ingredients</h3>
+                <ul>
+                    <li>1lb Ground Beef</li>
+                    <li>~2 Cups of Elbow Pasta or Pasta of Choice</li>
+                    <li>1 Packet of Taco Seasoning</li>
+                    <li>2/3 Cup of Water</li>
+                    <li>1 16oz Jar of Salsa</li>
+                    <li>Any shredded Cheese of Your Choice</li>
+                </ul>
+
+            <!--Instructions-->
+            <h3>Instructions</h3>
+            <p>1. Cook your pasta and beef.</p>
+            <p>2. Follow the instructions of the taco seasoning, if given. If not, drain
+                the beef and return to pan. Add 2/3 cup of water to the beef and add the seasoning.</p>
+            <p>3. Bring the beef and water to a simmer until all the water is gone.</p>
+            <p>4. Combine the pasta, beef and salsa, mixing thoroughly.</p>
+            <p>5. Serve and top with cheese and garnish as desired.</p>
+            <!-- <p>6. </p> -->
+
+            <!--Category-->
+            <h3>Category</h3>
+                <ul>
+                    <li><a href="recipes.html#beef">Beef</a></li>
+                    <!-- <li><a href="_placeholder_">Cat</a></li> -->
+                </ul>
+             
+        
+    </body>
+</html>
